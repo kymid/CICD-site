@@ -1,0 +1,36 @@
+.password {
+    position: relative;
+}
+.password-control {
+    position: relative;
+    bottom: 5px;
+	right: -840px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(Picture/visible.png) 0 0 no-repeat;
+    background-size:cover;
+}
+.password-control.view {
+	background: url(Picture/hide.png) 0 0 no-repeat;
+    background-size:cover;
+}
+
+.Polya {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Enter {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Reg {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-5%,-50%);
+}
