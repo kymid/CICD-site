@@ -20,5 +20,5 @@ from ownsite.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ownsite/', index)
+    path('ownsite/', index) # http://127.0.0.1:8000/women
 ]
